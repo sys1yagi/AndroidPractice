@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DrumPicker</string>
+    <string name="year">/</string>
+    <string name="month">/</string>
+    <string name="day">/</string>
+    <string name="hour">:</string>
+    <string name="minitue"></string>
+    
+    <string name="plusone">+1 minute</string>
+    <string name="init">initizlize</string>
+</resources>

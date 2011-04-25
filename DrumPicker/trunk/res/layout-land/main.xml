@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center">
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center">
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/date"
+			android:gravity="center" android:textColor="#ffffffff"
+			android:textSize="30dp" android:layout_weight="1"></TextView>
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/time"
+			android:gravity="center" android:textColor="#ffffffff"
+			android:textSize="30dp" android:layout_weight="2"></TextView>
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center">
+		<jp.dip.sys1.android.drumpicker.lib.DateDrumPicker
+			android:id="@+id/datepicker" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1" />
+		<jp.dip.sys1.android.drumpicker.lib.TimeDrumPicker
+			android:id="@+id/timepicker" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="2" />
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<Button android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/button"
+			android:layout_weight="1" android:text="@string/plusone" />
+		<Button android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/button2"
+			android:layout_weight="1" android:text="@string/init" />
+	</LinearLayout>
+</LinearLayout>

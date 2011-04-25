@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">時</string>
+    <string name="minitue">分</string>
+    
+    <string name="plusone">+1 minute</string>
+    <string name="init">初期化</string>
+</resources>
